@@ -1,0 +1,80 @@
+body{
+    background-image: url(https://media3.giphy.com/media/rVVFWyTINqG7C/200.gif);
+    background-repeat: no-repeat;
+    background-size:100%;
+    
+}
+body h1{
+    background-color: rgb(5,8,44,.2);
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    height: 130px;
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: Cursive;
+    color: white;  
+    font-weight: bold;  
+}
+.search-form{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    align-items: center;
+    text-align: center;
+    /* border: red solid 1px ; */
+}
+#submit-button {
+    background-color: rgba(177, 13, 149, 0.5);
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    color: white;
+}
+#search-key{
+    height: 25px;
+    background-color: rgba(228, 208, 224, 0.5);
+    border-radius: 20px;
+    color: white;
+}
+#navbarTogglerDemo01{
+    background-color: rgb(5,8,44,.2);
+    color:  yellow;
+}
+.allGif {
+    height:150px;
+    width: 25%;
+    
+
+}
+
+#error-click{
+    
+    color: white;
+    margin: auto;
+    padding-top: 40px;
+    height: 150px;
+    width: 70%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#img-container img {
+    
+ width: 25%;
+ font-size: 100%;
+    
+
+} 
+#img-container img:hover {
+    
+    font-size: 500%;
+        width: 50%;
+        height: 350px;
+        transition: 2s;
+
+} 
+img :hover {
+size:100px;
+
+}
